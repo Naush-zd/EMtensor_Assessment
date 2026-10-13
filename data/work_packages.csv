@@ -1,0 +1,59 @@
+task_id,parent_task_id,dept_id,task_name,component_id,owner_researcher_id,planned_start,planned_end,actual_start,actual_end,status
+WP-SIT,,SIT,Site & Civil Works work package,,R001,,,,,
+WP-GRD,,GRD,Grid & Distribution work package,,R008,,,,,
+WP-THM,,THM,Battery Thermal Systems work package,,R016,,,,,
+WP-PVE,,PVE,PV & Storage Engineering work package,,R024,,,,,
+WP-EMS,,EMS,Energy Management Software work package,,R036,,,,,
+WP-COM,,COM,Community & Tariff work package,,R047,,,,,
+WP-PUR,,PUR,Procurement work package,,R055,,,,,
+WP-PMO,,PMO,Project Office work package,,R058,,,,,
+PMO-01,WP-PMO,PMO,Project board constituted,MGR-001,R060,2025-10-01,2025-10-21,2025-10-09,2025-10-29,completed
+PMO-02,WP-PMO,PMO,Quarterly reporting to MNRE,MGR-001,R061,2025-12-30,2027-03-15,2026-01-11,,in_progress
+PMO-03,WP-PMO,PMO,Utilisation certificate for tranche 1,MGR-001,R061,2026-02-28,2026-03-30,2026-03-11,2026-04-08,completed
+PMO-04,WP-PMO,PMO,Handover to village energy committees,MGR-001,R061,2027-02-18,2027-03-15,,,not_started
+PUR-01,WP-PUR,PUR,Vendor empanelment,MGR-001,R056,2025-10-01,2025-11-15,2025-10-30,2025-12-22,completed
+PUR-02,WP-PUR,PUR,"Tender publication (modules, batteries, meters)",MGR-001,R055,2025-11-15,2025-12-15,2025-12-23,2026-01-25,completed
+PUR-03,WP-PUR,PUR,Evaluation & award,MGR-001,R055,2025-12-15,2026-01-24,2026-01-26,2026-03-06,completed
+SIT-01,WP-SIT,SIT,Land & soil survey,SIT-001,R001,2025-10-01,2025-10-31,2025-09-28,2025-10-29,completed
+SIT-02,WP-SIT,SIT,Site layout approval,SIT-001,R006,2025-10-31,2025-12-15,2025-11-07,2025-12-24,completed
+SIT-03,WP-SIT,SIT,Civil contract award,SIT-001,R006,2025-12-15,2026-01-24,2025-12-25,2026-02-03,completed
+SIT-04,WP-SIT,SIT,Foundations & array structures,SIT-FND,R003,2026-01-24,2026-04-24,2026-02-04,2026-05-31,completed
+SIT-05,WP-SIT,SIT,Fire safety system,SIT-FIRE,R006,2026-04-24,2026-06-13,2026-06-01,2026-07-27,completed
+SIT-06,WP-SIT,SIT,Fencing & surveillance,SIT-FEN,R002,2026-04-29,2026-05-29,2026-06-01,2026-07-03,completed
+SIT-07,WP-SIT,SIT,Site completion certificate,SIT-001,R003,2026-06-18,2026-07-03,2026-06-28,2026-08-15,completed
+GRD-01,WP-GRD,GRD,Load & interconnection study,GRD-001,R014,2025-10-16,2025-11-25,2025-10-18,2025-11-28,completed
+GRD-02,WP-GRD,GRD,11 kV substation,GRD-SUB,R013,2025-11-30,2026-03-30,2025-11-30,2026-05-11,completed
+GRD-03,WP-GRD,GRD,Central inverter procurement,GRD-INV,R008,2025-11-30,2026-02-28,2025-11-29,2026-02-24,completed
+GRD-04,WP-GRD,GRD,Inverter station commissioning,GRD-INV,R015,2026-04-09,2026-05-19,2026-06-01,2026-07-22,completed
+GRD-05,WP-GRD,GRD,Array feeders,GRD-FDR,R013,2026-05-29,2026-07-13,2026-08-16,,in_progress
+GRD-06,WP-GRD,GRD,Backup genset,GRD-DG,R014,2026-03-30,2026-06-28,2026-05-12,2026-09-01,completed
+GRD-07,WP-GRD,GRD,Power quality audit,GRD-001,R013,2026-07-28,2026-08-17,,,not_started
+THM-01,WP-THM,THM,Thermal load study,THM-001,R017,2025-10-16,2025-11-30,2025-10-25,2025-12-14,completed
+THM-02,WP-THM,THM,Container HVAC procurement,THM-HVAC,R022,2025-12-10,2026-04-09,2025-12-15,2026-05-17,completed
+THM-03,WP-THM,THM,Coolant loop,THM-LOOP,R022,2026-04-19,2026-06-18,2026-06-01,2026-08-09,completed
+THM-04,WP-THM,THM,Container chillers,THM-CHL,R018,2026-06-18,2026-07-28,2026-08-10,,in_progress
+THM-05,WP-THM,THM,Rack cooling units,THM-RCU,R017,2026-07-08,2026-08-22,,,not_started
+THM-06,WP-THM,THM,Thermal commissioning,THM-001,R017,2026-08-27,2026-09-21,,,not_started
+PVE-01,WP-PVE,PVE,System design freeze,GEN-001,R035,2025-10-01,2025-11-30,2025-10-07,2025-12-05,completed
+PVE-02,WP-PVE,PVE,Module & battery tender evaluation,GEN-001,R029,2025-12-15,2026-01-29,2026-03-07,2026-04-24,completed
+PVE-03,WP-PVE,PVE,PV module delivery & inspection,GEN-PV,R029,2026-04-19,2026-06-18,2026-04-25,2026-07-09,completed
+PVE-04,WP-PVE,PVE,PV arrays 1-2 installation,GEN-PV,R032,2026-06-28,2026-08-07,,,not_started
+PVE-05,WP-PVE,PVE,PV arrays 3-4 installation,GEN-PV,R032,2026-08-07,2026-09-16,,,not_started
+PVE-06,WP-PVE,PVE,Battery container delivery,GEN-BAT,R026,2026-05-29,2026-08-27,2026-05-28,,in_progress
+PVE-07,WP-PVE,PVE,Battery container installation,GEN-BAT,R028,2026-09-06,2026-10-21,,,not_started
+PVE-08,WP-PVE,PVE,Metering network design,MTR-001,R033,2025-11-30,2026-01-14,2025-12-07,2026-01-23,completed
+PVE-09,WP-PVE,PVE,Smart meter procurement,MTR-001,R028,2026-01-19,2026-04-29,2026-03-07,2026-07-12,completed
+PVE-10,WP-PVE,PVE,Meter installation & validation,MTR-001,R027,2026-07-28,2026-09-26,,,not_started
+EMS-01,WP-EMS,EMS,Data historian architecture,HIS-001,R036,2025-10-31,2025-12-15,2025-11-11,2025-12-30,completed
+EMS-02,WP-EMS,EMS,Historian server procurement,HIS-001,R039,2025-12-20,2026-04-19,2026-03-07,2026-06-30,completed
+EMS-03,WP-EMS,EMS,Historian deployment,HIS-001,R039,2026-08-27,2026-10-11,,,not_started
+EMS-04,WP-EMS,EMS,EMS baseline,EMS-BASE,R042,2026-06-08,2026-08-07,2026-06-17,2026-08-29,completed
+EMS-05,WP-EMS,EMS,Dispatch & scheduling module,EMS-DSP,R043,2026-08-27,2026-10-06,,,not_started
+EMS-06,WP-EMS,EMS,Monitoring dashboards,EMS-MON,R041,2026-08-27,2026-10-16,2026-08-30,,in_progress
+EMS-07,WP-EMS,EMS,Consumer app & billing,EMS-APPB,R040,2026-10-06,2026-12-05,,,not_started
+EMS-08,WP-EMS,EMS,Cyber-security audit,EMS-001,R040,2026-12-05,2027-01-04,,,not_started
+COM-01,WP-COM,COM,Household load survey,CMY-001,R049,2025-10-31,2025-12-30,2025-10-28,2025-12-31,completed
+COM-02,WP-COM,COM,Household connections,CMY-CON,R048,2026-01-29,2026-09-26,2026-02-02,,in_progress
+COM-03,WP-COM,COM,Tariff & billing rules,CMY-TRF,R048,2026-01-29,2026-08-17,2026-02-08,,in_progress
+COM-04,WP-COM,COM,72-hour islanded test,CMY-ISL,R049,2026-11-25,2026-12-25,,,In Progress
+COM-05,WP-COM,COM,Village handover & acceptance,CMY-001,R051,2026-12-30,2027-02-13,2026-08-16,2026-09-10,completed

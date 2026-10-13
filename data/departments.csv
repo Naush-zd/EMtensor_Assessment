@@ -1,0 +1,9 @@
+dept_id,dept_name,scope,total_budget_inr,head_researcher_id
+SIT,Site & Civil Works,"Land levelling, foundations, fencing, fire safety",22800000,R001
+GRD,Grid & Distribution,"Substation, inverter station, backup genset, array feeders",34300000,R008
+THM,Battery Thermal Systems,"Container HVAC, coolant loop, fire suppression",37800000,R016
+PVE,PV & Storage Engineering,"PV arrays, battery containers, metering network",119800000,R024
+EMS,Energy Management Software,"Data historian, EMS, billing, consumer app",40800000,R036
+COM,Community & Tariff,"Household survey, connections, tariff, village handover",19000000,R047
+PUR,Procurement,"Tendering, evaluation, award",3300000,R055
+PMO,Project Office,"Governance, MNRE reporting, contingency",18000000,R058

@@ -1,0 +1,316 @@
+component_id,parent_component_id,component_name,component_type,owner_dept_id,quantity,unit_cost_inr,governing_task_id,status
+MGR-001,,Surya Gram Microgrid,system,PMO,1,0,,planned
+SIT-001,MGR-001,Microgrid site,subsystem,SIT,1,0,SIT-07,tested
+SIT-FND,SIT-001,Foundations & array structures,assembly,SIT,1,4275000,SIT-04,installed
+SIT-FIRE,SIT-001,Fire safety system,assembly,SIT,1,2790000,SIT-05,installed
+SIT-FEN,SIT-001,Fencing & surveillance,assembly,SIT,1,945000,SIT-06,installed
+GRD-001,MGR-001,Grid & distribution,subsystem,GRD,1,0,GRD-07,planned
+GRD-SUB,GRD-001,11 kV substation,assembly,GRD,1,6300000,GRD-02,installed
+GRD-INV,GRD-001,Central inverter,assembly,GRD,2,3060000,GRD-04,installed
+GRD-DG,GRD-001,Backup genset,assembly,GRD,1,4050000,GRD-06,installed
+GRD-FDR,GRD-001,Array feeders,assembly,GRD,1,0,GRD-05,in_progress
+THM-001,MGR-001,Battery thermal system,subsystem,THM,1,0,THM-06,planned
+THM-HVAC,THM-001,Container HVAC plant,assembly,THM,2,5175000,THM-02,installed
+THM-LOOP,THM-001,Coolant loop,assembly,THM,1,2430000,THM-03,installed
+THM-CHL,THM-001,Container chiller,assembly,THM,2,1755000,THM-04,in_progress
+THM-RCU,THM-001,Rack cooling units,assembly,THM,1,0,THM-05,planned
+MTR-001,MGR-001,Metering & comms network,subsystem,PVE,1,0,PVE-10,planned
+MTR-HEG-01,MTR-001,Head-end gateway 1,part,PVE,1,3510000,PVE-09,installed
+MTR-HEG-02,MTR-001,Head-end gateway 2,part,PVE,1,3510000,PVE-09,installed
+HIS-001,MGR-001,Data historian,subsystem,EMS,1,0,EMS-03,planned
+HIS-SRV,HIS-001,Historian servers,assembly,EMS,2,1170000,EMS-03,planned
+HIS-APP,HIS-001,Application servers,assembly,EMS,4,1395000,EMS-03,planned
+HIS-STR,HIS-001,Storage shelves,assembly,EMS,6,1080000,EMS-03,planned
+GEN-001,MGR-001,Generation & storage,subsystem,PVE,1,0,PVE-05,planned
+GEN-PV,GEN-001,PV arrays,assembly,PVE,1,0,PVE-05,planned
+GEN-BAT,GEN-001,Battery containers,assembly,PVE,1,0,PVE-07,planned
+GEN-PV-R1,GEN-PV,PV array 1,unit,PVE,1,0,PVE-04,delivered
+GRD-FDR-R1,GRD-FDR,Feeder array 1,part,GRD,2,81000,GRD-05,in_progress
+THM-RCU-R1,THM-RCU,Array inverter cooling 1,part,THM,1,427500,THM-05,planned
+MTR-ACU-R1,MTR-001,Array comms unit 1,part,PVE,1,855000,PVE-10,planned
+GEN-PV-R1-N01,GEN-PV-R1,String 1-01,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N01-FUS,GEN-PV-R1-N01,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N01-MOD,GEN-PV-R1-N01,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N02,GEN-PV-R1,String 1-02,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N02-FUS,GEN-PV-R1-N02,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N02-MOD,GEN-PV-R1-N02,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N03,GEN-PV-R1,String 1-03,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N03-FUS,GEN-PV-R1-N03,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N03-MOD,GEN-PV-R1-N03,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N04,GEN-PV-R1,String 1-04,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N04-FUS,GEN-PV-R1-N04,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N04-MOD,GEN-PV-R1-N04,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N05,GEN-PV-R1,String 1-05,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N05-FUS,GEN-PV-R1-N05,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N05-MOD,GEN-PV-R1-N05,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N06,GEN-PV-R1,String 1-06,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N06-FUS,GEN-PV-R1-N06,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N06-MOD,GEN-PV-R1-N06,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N07,GEN-PV-R1,String 1-07,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N07-FUS,GEN-PV-R1-N07,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N07-MOD,GEN-PV-R1-N07,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N08,GEN-PV-R1,String 1-08,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N08-FUS,GEN-PV-R1-N08,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N08-MOD,GEN-PV-R1-N08,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N09,GEN-PV-R1,String 1-09,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N09-FUS,GEN-PV-R1-N09,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N09-MOD,GEN-PV-R1-N09,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N10,GEN-PV-R1,String 1-10,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N10-FUS,GEN-PV-R1-N10,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N10-MOD,GEN-PV-R1-N10,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N11,GEN-PV-R1,String 1-11,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N11-FUS,GEN-PV-R1-N11,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N11-MOD,GEN-PV-R1-N11,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N12,GEN-PV-R1,String 1-12,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N12-FUS,GEN-PV-R1-N12,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N12-MOD,GEN-PV-R1-N12,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N13,GEN-PV-R1,String 1-13,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N13-FUS,GEN-PV-R1-N13,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N13-MOD,GEN-PV-R1-N13,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N14,GEN-PV-R1,String 1-14,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N14-FUS,GEN-PV-R1-N14,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N14-MOD,GEN-PV-R1-N14,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N15,GEN-PV-R1,String 1-15,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N15-FUS,GEN-PV-R1-N15,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N15-MOD,GEN-PV-R1-N15,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R1-N16,GEN-PV-R1,String 1-16,sub_unit,PVE,1,0,,planned
+GEN-PV-R1-N16-FUS,GEN-PV-R1-N16,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R1-N16-MOD,GEN-PV-R1-N16,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2,GEN-PV,PV array 2,unit,PVE,1,0,PVE-04,installed
+GRD-FDR-R2,GRD-FDR,Feeder array 2,part,GRD,2,81000,GRD-05,in_progress
+THM-RCU-R2,THM-RCU,Array inverter cooling 2,part,THM,1,427500,THM-05,ordered
+MTR-ACU-R2,MTR-001,Array comms unit 2,part,PVE,1,855000,PVE-10,planned
+GEN-PV-R2-N01,GEN-PV-R2,String 2-01,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N01-FUS,GEN-PV-R2-N01,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N01-MOD,GEN-PV-R2-N01,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N02,GEN-PV-R2,String 2-02,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N02-FUS,GEN-PV-R2-N02,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N02-MOD,GEN-PV-R2-N02,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N03,GEN-PV-R2,String 2-03,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N03-FUS,GEN-PV-R2-N03,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N03-MOD,GEN-PV-R2-N03,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N04,GEN-PV-R2,String 2-04,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N04-FUS,GEN-PV-R2-N04,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N04-MOD,GEN-PV-R2-N04,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N05,GEN-PV-R2,String 2-05,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N05-FUS,GEN-PV-R2-N05,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N05-MOD,GEN-PV-R2-N05,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N06,GEN-PV-R2,String 2-06,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N06-FUS,GEN-PV-R2-N06,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N06-MOD,GEN-PV-R2-N06,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N07,GEN-PV-R2,String 2-07,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N07-FUS,GEN-PV-R2-N07,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N07-MOD,GEN-PV-R2-N07,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N08,GEN-PV-R2,String 2-08,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N08-FUS,GEN-PV-R2-N08,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N08-MOD,GEN-PV-R2-N08,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N09,GEN-PV-R2,String 2-09,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N09-FUS,GEN-PV-R2-N09,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N09-MOD,GEN-PV-R2-N09,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N10,GEN-PV-R2,String 2-10,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N10-FUS,GEN-PV-R2-N10,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N10-MOD,GEN-PV-R2-N10,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N11,GEN-PV-R2,String 2-11,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N11-FUS,GEN-PV-R2-N11,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N11-MOD,GEN-PV-R2-N11,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N12,GEN-PV-R2,String 2-12,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N12-FUS,GEN-PV-R2-N12,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N12-MOD,GEN-PV-R2-N12,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N13,GEN-PV-R2,String 2-13,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N13-FUS,GEN-PV-R2-N13,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N13-MOD,GEN-PV-R2-N13,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N14,GEN-PV-R2,String 2-14,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N14-FUS,GEN-PV-R2-N14,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N14-MOD,GEN-PV-R2-N14,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N15,GEN-PV-R2,String 2-15,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N15-FUS,GEN-PV-R2-N15,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N15-MOD,GEN-PV-R2-N15,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R2-N16,GEN-PV-R2,String 2-16,sub_unit,PVE,1,0,,planned
+GEN-PV-R2-N16-FUS,GEN-PV-R2-N16,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R2-N16-MOD,GEN-PV-R2-N16,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3,GEN-PV,PV array 3,unit,PVE,1,0,PVE-05,delivered
+GRD-FDR-R3,GRD-FDR,Feeder array 3,part,GRD,2,81000,GRD-05,in_progress
+THM-RCU-R3,THM-RCU,Array inverter cooling 3,part,THM,1,427500,THM-05,planned
+MTR-ACU-R3,MTR-001,Array comms unit 3,part,PVE,1,855000,PVE-10,planned
+GEN-PV-R3-N01,GEN-PV-R3,String 3-01,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N01-FUS,GEN-PV-R3-N01,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N01-MOD,GEN-PV-R3-N01,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N02,GEN-PV-R3,String 3-02,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N02-FUS,GEN-PV-R3-N02,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N02-MOD,GEN-PV-R3-N02,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N03,GEN-PV-R3,String 3-03,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N03-FUS,GEN-PV-R3-N03,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N03-MOD,GEN-PV-R3-N03,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N04,GEN-PV-R3,String 3-04,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N04-FUS,GEN-PV-R3-N04,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N04-MOD,GEN-PV-R3-N04,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N05,GEN-PV-R3,String 3-05,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N05-FUS,GEN-PV-R3-N05,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N05-MOD,GEN-PV-R3-N05,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N06,GEN-PV-R3,String 3-06,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N06-FUS,GEN-PV-R3-N06,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N06-MOD,GEN-PV-R3-N06,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N07,GEN-PV-R3,String 3-07,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N07-FUS,GEN-PV-R3-N07,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N07-MOD,GEN-PV-R3-N07,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N08,GEN-PV-R3,String 3-08,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N08-FUS,GEN-PV-R3-N08,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N08-MOD,GEN-PV-R3-N08,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N09,GEN-PV-R3,String 3-09,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N09-FUS,GEN-PV-R3-N09,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N09-MOD,GEN-PV-R3-N09,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N10,GEN-PV-R3,String 3-10,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N10-FUS,GEN-PV-R3-N10,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N10-MOD,GEN-PV-R3-N10,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N11,GEN-PV-R3,String 3-11,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N11-FUS,GEN-PV-R3-N11,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N11-MOD,GEN-PV-R3-N11,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N12,GEN-PV-R3,String 3-12,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N12-FUS,GEN-PV-R3-N12,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N12-MOD,GEN-PV-R3-N12,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N13,GEN-PV-R3,String 3-13,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N13-FUS,GEN-PV-R3-N13,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N13-MOD,GEN-PV-R3-N13,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N14,GEN-PV-R3,String 3-14,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N14-FUS,GEN-PV-R3-N14,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N14-MOD,GEN-PV-R3-N14,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N15,GEN-PV-R3,String 3-15,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N15-FUS,GEN-PV-R3-N15,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N15-MOD,GEN-PV-R3-N15,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R3-N16,GEN-PV-R3,String 3-16,sub_unit,PVE,1,0,,planned
+GEN-PV-R3-N16-FUS,GEN-PV-R3-N16,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R3-N16-MOD,GEN-PV-R3-N16,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4,GEN-PV,PV array 4,unit,PVE,1,0,PVE-05,delivered
+GRD-FDR-R4,GRD-FDR,Feeder array 4,part,GRD,2,81000,GRD-05,in_progress
+THM-RCU-R4,THM-RCU,Array inverter cooling 4,part,THM,1,427500,THM-05,planned
+MTR-ACU-R4,MTR-001,Array comms unit 4,part,PVE,1,855000,PVE-10,planned
+GEN-PV-R4-N01,GEN-PV-R4,String 4-01,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N01-FUS,GEN-PV-R4-N01,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N01-MOD,GEN-PV-R4-N01,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N02,GEN-PV-R4,String 4-02,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N02-FUS,GEN-PV-R4-N02,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N02-MOD,GEN-PV-R4-N02,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N03,GEN-PV-R4,String 4-03,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N03-FUS,GEN-PV-R4-N03,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N03-MOD,GEN-PV-R4-N03,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N04,GEN-PV-R4,String 4-04,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N04-FUS,GEN-PV-R4-N04,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N04-MOD,GEN-PV-R4-N04,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N05,GEN-PV-R4,String 4-05,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N05-FUS,GEN-PV-R4-N05,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N05-MOD,GEN-PV-R4-N05,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N06,GEN-PV-R4,String 4-06,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N06-FUS,GEN-PV-R4-N06,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N06-MOD,GEN-PV-R4-N06,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N07,GEN-PV-R4,String 4-07,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N07-FUS,GEN-PV-R4-N07,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N07-MOD,GEN-PV-R4-N07,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N08,GEN-PV-R4,String 4-08,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N08-FUS,GEN-PV-R4-N08,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N08-MOD,GEN-PV-R4-N08,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N09,GEN-PV-R4,String 4-09,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N09-FUS,GEN-PV-R4-N09,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N09-MOD,GEN-PV-R4-N09,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N10,GEN-PV-R4,String 4-10,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N10-FUS,GEN-PV-R4-N10,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N10-MOD,GEN-PV-R4-N10,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N11,GEN-PV-R4,String 4-11,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N11-FUS,GEN-PV-R4-N11,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N11-MOD,GEN-PV-R4-N11,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N12,GEN-PV-R4,String 4-12,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N12-FUS,GEN-PV-R4-N12,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N12-MOD,GEN-PV-R4-N12,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N13,GEN-PV-R4,String 4-13,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N13-FUS,GEN-PV-R4-N13,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N13-MOD,GEN-PV-R4-N13,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N14,GEN-PV-R4,String 4-14,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N14-FUS,GEN-PV-R4-N14,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N14-MOD,GEN-PV-R4-N14,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N15,GEN-PV-R4,String 4-15,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N15-FUS,GEN-PV-R4-N15,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N15-MOD,GEN-PV-R4-N15,PV module 540 W,part,PVE,12,8100,,planned
+GEN-PV-R4-N16,GEN-PV-R4,String 4-16,sub_unit,PVE,1,0,,planned
+GEN-PV-R4-N16-FUS,GEN-PV-R4-N16,String fuse,part,PVE,2,171000,,planned
+GEN-PV-R4-N16-MOD,GEN-PV-R4-N16,PV module 540 W,part,PVE,12,8100,,planned
+GEN-BAT-R1,GEN-BAT,Battery container 1,unit,PVE,1,0,PVE-07,ordered
+GRD-FDR-G1,GRD-FDR,Feeder container 1,part,GRD,2,108000,GRD-05,in_progress
+THM-RCU-G1,THM-RCU,Rack cooling container 1,part,THM,1,607500,THM-05,planned
+MTR-ACU-G1,MTR-001,Container comms unit 1,part,PVE,1,855000,PVE-10,planned
+GEN-BAT-R1-N01,GEN-BAT-R1,Battery rack 1-01,sub_unit,PVE,1,0,,planned
+GEN-BAT-R1-N01-FUS,GEN-BAT-R1-N01,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R1-N01-BMD,GEN-BAT-R1-N01,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R1-N01-MOD,GEN-BAT-R1-N01,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R1-N02,GEN-BAT-R1,Battery rack 1-02,sub_unit,PVE,1,0,,planned
+GEN-BAT-R1-N02-FUS,GEN-BAT-R1-N02,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R1-N02-BMD,GEN-BAT-R1-N02,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R1-N02-MOD,GEN-BAT-R1-N02,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R1-N03,GEN-BAT-R1,Battery rack 1-03,sub_unit,PVE,1,0,,planned
+GEN-BAT-R1-N03-FUS,GEN-BAT-R1-N03,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R1-N03-BMD,GEN-BAT-R1-N03,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R1-N03-MOD,GEN-BAT-R1-N03,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R1-N04,GEN-BAT-R1,Battery rack 1-04,sub_unit,PVE,1,0,,planned
+GEN-BAT-R1-N04-FUS,GEN-BAT-R1-N04,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R1-N04-BMD,GEN-BAT-R1-N04,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R1-N04-MOD,GEN-BAT-R1-N04,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R1-N05,GEN-BAT-R1,Battery rack 1-05,sub_unit,PVE,1,0,,planned
+GEN-BAT-R1-N05-FUS,GEN-BAT-R1-N05,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R1-N05-BMD,GEN-BAT-R1-N05,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R1-N05-MOD,GEN-BAT-R1-N05,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R1-N06,GEN-BAT-R1,Battery rack 1-06,sub_unit,PVE,1,0,,planned
+GEN-BAT-R1-N06-FUS,GEN-BAT-R1-N06,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R1-N06-BMD,GEN-BAT-R1-N06,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R1-N06-MOD,GEN-BAT-R1-N06,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R1-N07,GEN-BAT-R1,Battery rack 1-07,sub_unit,PVE,1,0,,planned
+GEN-BAT-R1-N07-FUS,GEN-BAT-R1-N07,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R1-N07-BMD,GEN-BAT-R1-N07,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R1-N07-MOD,GEN-BAT-R1-N07,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R1-N08,GEN-BAT-R1,Battery rack 1-08,sub_unit,PVE,1,0,,planned
+GEN-BAT-R1-N08-FUS,GEN-BAT-R1-N08,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R1-N08-BMD,GEN-BAT-R1-N08,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R1-N08-MOD,GEN-BAT-R1-N08,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R2,GEN-BAT,Battery container 2,unit,PVE,1,0,PVE-07,ordered
+GRD-FDR-G2,GRD-FDR,Feeder container 2,part,GRD,2,108000,GRD-05,in_progress
+THM-RCU-G2,THM-RCU,Rack cooling container 2,part,THM,1,607500,THM-05,planned
+MTR-ACU-G2,MTR-001,Container comms unit 2,part,PVE,1,855000,PVE-10,planned
+GEN-BAT-R2-N01,GEN-BAT-R2,Battery rack 2-01,sub_unit,PVE,1,0,,planned
+GEN-BAT-R2-N01-FUS,GEN-BAT-R2-N01,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R2-N01-BMD,GEN-BAT-R2-N01,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R2-N01-MOD,GEN-BAT-R2-N01,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R2-N02,GEN-BAT-R2,Battery rack 2-02,sub_unit,PVE,1,0,,planned
+GEN-BAT-R2-N02-FUS,GEN-BAT-R2-N02,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R2-N02-BMD,GEN-BAT-R2-N02,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R2-N02-MOD,GEN-BAT-R2-N02,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R2-N03,GEN-BAT-R2,Battery rack 2-03,sub_unit,PVE,1,0,,planned
+GEN-BAT-R2-N03-FUS,GEN-BAT-R2-N03,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R2-N03-BMD,GEN-BAT-R2-N03,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R2-N03-MOD,GEN-BAT-R2-N03,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R2-N04,GEN-BAT-R2,Battery rack 2-04,sub_unit,PVE,1,0,,planned
+GEN-BAT-R2-N04-FUS,GEN-BAT-R2-N04,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R2-N04-BMD,GEN-BAT-R2-N04,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R2-N04-MOD,GEN-BAT-R2-N04,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R2-N05,GEN-BAT-R2,Battery rack 2-05,sub_unit,PVE,1,0,,planned
+GEN-BAT-R2-N05-FUS,GEN-BAT-R2-N05,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R2-N05-BMD,GEN-BAT-R2-N05,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R2-N05-MOD,GEN-BAT-R2-N05,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R2-N06,GEN-BAT-R2,Battery rack 2-06,sub_unit,PVE,1,0,,planned
+GEN-BAT-R2-N06-FUS,GEN-BAT-R2-N06,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R2-N06-BMD,GEN-BAT-R2-N06,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R2-N06-MOD,GEN-BAT-R2-N06,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R2-N07,GEN-BAT-R2,Battery rack 2-07,sub_unit,PVE,1,0,,planned
+GEN-BAT-R2-N07-FUS,GEN-BAT-R2-N07,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R2-N07-BMD,GEN-BAT-R2-N07,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R2-N07-MOD,GEN-BAT-R2-N07,Cell sensor,part,PVE,16,8100,,planned
+GEN-BAT-R2-N08,GEN-BAT-R2,Battery rack 2-08,sub_unit,PVE,1,0,,planned
+GEN-BAT-R2-N08-FUS,GEN-BAT-R2-N08,BMS controller,part,PVE,2,135000,,planned
+GEN-BAT-R2-N08-BMD,GEN-BAT-R2-N08,Battery module,part,PVE,4,405000,,planned
+GEN-BAT-R2-N08-MOD,GEN-BAT-R2-N08,Cell sensor,part,PVE,16,8100,,planned
+EMS-001,MGR-001,Energy management software,subsystem,EMS,1,0,EMS-08,planned
+EMS-BASE,EMS-001,EMS baseline,assembly,EMS,1,0,EMS-04,installed
+EMS-DSP,EMS-001,Dispatch & scheduling,assembly,EMS,1,0,EMS-05,planned
+EMS-MON,EMS-001,Monitoring dashboards,assembly,EMS,1,0,EMS-06,in_progress
+EMS-APPB,EMS-001,Consumer app & billing,assembly,EMS,1,0,EMS-07,planned
+CMY-001,MGR-001,Community readiness,subsystem,COM,1,0,COM-05,planned
+CMY-CON,CMY-001,Household connections,assembly,COM,1,0,COM-02,in_progress
+CMY-TRF,CMY-001,Tariff & billing rules,assembly,COM,1,0,COM-03,in_progress
+CMY-ISL,CMY-001,Islanded test,assembly,COM,1,0,COM-04,planned
+MTR-MET-99,MTR-HEG-09,Smart meter lot,part,PVE,96,38000,,delivered

@@ -1,0 +1,62 @@
+researcher_id,full_name,dept_id,role,email,project_allocation_pct,monthly_cost_inr,joined_on,left_on,status
+R001,Joseph Rao,SIT,Professor & Dept Lead,joseph.rao1@vit-shakti.ac.in,30,0,2025-10-01,,active
+R002,Joseph Qureshi,SIT,Project Engineer,joseph.qureshi2@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R003,Neha Patel,SIT,Project Engineer,neha.patel3@vit-shakti.ac.in,100,85000,2025-10-31,,active
+R004,Pranav Sharma,SIT,Technician,pranav.sharma4@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R005,Ananya Pillai,SIT,Technician,ananya.pillai5@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R006,Farhan Menon,SIT,Project Engineer,farhan.menon6@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R007,Ganesh Fernandes,SIT,Technician,ganesh.fernandes7@vit-shakti.ac.in,100,45000,2025-11-30,,active
+R008,Priya Nair,GRD,Professor & Dept Lead,priya.nair8@vit-shakti.ac.in,20,0,2025-10-01,,active
+R009,Manish Naidu,GRD,Research Scholar,manish.naidu9@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R010,Gurleen Naidu,GRD,Technician,gurleen.naidu10@vit-shakti.ac.in,100,45000,2025-10-31,,active
+R011,Neha Bhat,GRD,Project Engineer,neha.bhat11@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R012,Vikram Gupta,GRD,Co-Investigator,vikram.gupta12@vit-shakti.ac.in,30,0,2025-10-01,,active
+R013,Farhan Singh,GRD,Project Engineer,farhan.singh13@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R014,Rajesh Qureshi,GRD,Co-Investigator,rajesh.qureshi14@vit-shakti.ac.in,30,0,2025-10-31,,active
+R015,Nandini Joshi,GRD,Co-Investigator,nandini.joshi15@vit-shakti.ac.in,30,0,2025-10-01,,active
+R016,Sameer Reddy,THM,Professor & Dept Lead,sameer.reddy16@vit-shakti.ac.in,50,0,2025-10-01,,active
+R017,Sameer Bhat,THM,Co-Investigator,sameer.bhat17@vit-shakti.ac.in,50,0,2025-10-31,,active
+R018,Ananya Reddy,THM,Project Engineer,ananya.reddy18@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R019,Tanvi Naidu,THM,Co-Investigator,tanvi.naidu19@vit-shakti.ac.in,50,0,2025-10-31,,active
+R020,Lakshmi Hegde,THM,Research Scholar,lakshmi.hegde20@vit-shakti.ac.in,20,42000,2025-10-01,,active
+R021,Tanvi Rao,THM,Technician,tanvi.rao21@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R022,Karthik Gill,THM,Project Engineer,karthik.gill22@vit-shakti.ac.in,100,85000,2025-10-01,2026-05-29,exited
+R023,Ritu Nair,THM,Technician,ritu.nair23@vit-shakti.ac.in,100,45000,2026-01-29,,active
+R024,Asha Gupta,PVE,Professor & Dept Lead,asha.gupta24@vit-shakti.ac.in,50,0,2025-10-01,,active
+R025,Asha Naidu,PVE,Technician,asha.naidu25@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R026,Swathi Banerjee,PVE,Research Scholar,swathi.banerjee26@vit-shakti.ac.in,20,42000,2025-10-01,,active
+R027,Revathi Kulkarni,PVE,Project Engineer,revathi.kulkarni27@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R028,Ritu Naidu,PVE,Research Scholar,ritu.naidu28@vit-shakti.ac.in,50,42000,2025-10-31,,active
+R029,Sameer Patel,PVE,Co-Investigator,sameer.patel29@vit-shakti.ac.in,30,0,2026-01-29,,active
+R030,Lakshmi Joshi,PVE,Project Engineer,lakshmi.joshi30@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R031,Anjali Joshi,PVE,Project Engineer,anjali.joshi31@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R032,Meera Khan,PVE,Research Scholar,meera.khan32@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R033,Nikhil Menon,PVE,Co-Investigator,nikhil.menon33@vit-shakti.ac.in,50,0,2026-01-29,,active
+R034,Karthik Singh,PVE,Project Engineer,karthik.singh34@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R035,Anjali Gupta,PVE,Research Scholar,anjali.gupta35@vit-shakti.ac.in,50,42000,2025-10-16,,on_leave
+R036,Sneha Singh,EMS,Professor & Dept Lead,sneha.singh36@vit-shakti.ac.in,50,0,2025-10-01,,active
+R037,Sneha Pillai,EMS,Technician,sneha.pillai37@vit-shakti.ac.in,100,45000,2025-11-30,,active
+R038,Asha Khan,EMS,Technician,asha.khan38@vit-shakti.ac.in,100,45000,2025-11-30,,active
+R039,Mary Kulkarni,EMS,Research Scholar,mary.kulkarni39@vit-shakti.ac.in,40,42000,2025-10-16,,active
+R040,Kavya Qureshi,EMS,Co-Investigator,kavya.qureshi40@vit-shakti.ac.in,30,0,2026-01-29,,active
+R041,Venkat Chatterjee,EMS,Project Engineer,venkat.chatterjee41@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R042,Suresh Naidu,EMS,Project Engineer,suresh.naidu42@vit-shakti.ac.in,100,85000,2025-10-01,,active
+R043,Venkat Bhat,EMS,Co-Investigator,venkat.bhat43@vit-shakti.ac.in,40,0,2025-10-01,,active
+R044,Mary Das,EMS,Technician,mary.das44@vit-shakti.ac.in,100,45000,2025-10-16,,active
+R045,Aditya Joshi,EMS,Project Engineer,aditya.joshi45@vit-shakti.ac.in,100,85000,2025-11-30,,active
+R046,Sneha Gill,EMS,Project Engineer,sneha.gill46@vit-shakti.ac.in,100,85000,2025-10-16,,active
+R047,Anjali Qureshi,COM,Professor & Dept Lead,anjali.qureshi47@vit-shakti.ac.in,50,0,2025-10-01,,active
+R048,Mary Mehta,COM,Project Engineer,mary.mehta48@vit-shakti.ac.in,100,85000,2026-01-29,,active
+R049,Vikram Chatterjee,COM,Project Engineer,vikram.chatterjee49@vit-shakti.ac.in,100,85000,2025-10-31,,active
+R050,Abhishek Singh,COM,Research Scholar,abhishek.singh50@vit-shakti.ac.in,50,42000,2025-10-01,,active
+R051,Manish Reddy,COM,Research Scholar,manish.reddy51@vit-shakti.ac.in,30,42000,2025-10-31,,active
+R052,Pranav Joshi,COM,Research Scholar,pranav.joshi52@vit-shakti.ac.in,20,42000,2025-11-30,,active
+R053,Asha Hegde,COM,Technician,asha.hegde53@vit-shakti.ac.in,100,45000,2025-10-01,,active
+R054,Siddharth Banerjee,COM,Technician,siddharth.banerjee54@vit-shakti.ac.in,100,45000,2025-10-31,,active
+R055,Farhan Kulkarni,PUR,Professor & Dept Lead,farhan.kulkarni55@vit-shakti.ac.in,30,0,2025-10-01,,active
+R056,Ananya Singh,PUR,Research Scholar,ananya.singh56@vit-shakti.ac.in,30,42000,2025-11-30,,active
+R057,Mary Gupta,PUR,Research Scholar,mary.gupta57@vit-shakti.ac.in,20,42000,2026-01-29,,active
+R058,Shruti Chatterjee,PMO,Principal Investigator,shruti.chatterjee58@vit-shakti.ac.in,50,0,2025-10-01,,active
+R059,Nikhil Patel,PMO,Co-Investigator,nikhil.patel59@vit-shakti.ac.in,20,0,2025-11-30,,active
+R060,Pooja Joshi,PMO,Research Scholar,pooja.joshi60@vit-shakti.ac.in,30,42000,2025-10-01,,active
+R061,Farhan Qureshi,PMO,Research Scholar,farhan.qureshi61@vit-shakti.ac.in,30,42000,2025-10-31,,active

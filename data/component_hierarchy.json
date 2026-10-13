@@ -1,0 +1,2297 @@
+{
+ "id": "MGR-001",
+ "name": "Surya Gram Microgrid",
+ "type": "system",
+ "owner_dept": "PMO",
+ "children": [
+  {
+   "id": "SIT-001",
+   "name": "Microgrid site",
+   "type": "subsystem",
+   "owner_dept": "SIT",
+   "children": [
+    {
+     "id": "SIT-FND",
+     "name": "Foundations & array structures",
+     "type": "assembly",
+     "owner_dept": "SIT",
+     "children": []
+    },
+    {
+     "id": "SIT-FIRE",
+     "name": "Fire safety system",
+     "type": "assembly",
+     "owner_dept": "SIT",
+     "children": []
+    },
+    {
+     "id": "SIT-FEN",
+     "name": "Fencing & surveillance",
+     "type": "assembly",
+     "owner_dept": "SIT",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "GRD-001",
+   "name": "Grid & distribution",
+   "type": "subsystem",
+   "owner_dept": "GRD",
+   "children": [
+    {
+     "id": "GRD-SUB",
+     "name": "11 kV substation",
+     "type": "assembly",
+     "owner_dept": "GRD",
+     "children": []
+    },
+    {
+     "id": "GRD-INV",
+     "name": "Central inverter",
+     "type": "assembly",
+     "owner_dept": "GRD",
+     "children": []
+    },
+    {
+     "id": "GRD-DG",
+     "name": "Backup genset",
+     "type": "assembly",
+     "owner_dept": "GRD",
+     "children": []
+    },
+    {
+     "id": "GRD-FDR",
+     "name": "Array feeders",
+     "type": "assembly",
+     "owner_dept": "GRD",
+     "children": [
+      {
+       "id": "GRD-FDR-R1",
+       "name": "Feeder array 1",
+       "type": "part",
+       "owner_dept": "GRD",
+       "children": []
+      },
+      {
+       "id": "GRD-FDR-R2",
+       "name": "Feeder array 2",
+       "type": "part",
+       "owner_dept": "GRD",
+       "children": []
+      },
+      {
+       "id": "GRD-FDR-R3",
+       "name": "Feeder array 3",
+       "type": "part",
+       "owner_dept": "GRD",
+       "children": []
+      },
+      {
+       "id": "GRD-FDR-R4",
+       "name": "Feeder array 4",
+       "type": "part",
+       "owner_dept": "GRD",
+       "children": []
+      },
+      {
+       "id": "GRD-FDR-G1",
+       "name": "Feeder container 1",
+       "type": "part",
+       "owner_dept": "GRD",
+       "children": []
+      },
+      {
+       "id": "GRD-FDR-G2",
+       "name": "Feeder container 2",
+       "type": "part",
+       "owner_dept": "GRD",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "THM-001",
+   "name": "Battery thermal system",
+   "type": "subsystem",
+   "owner_dept": "THM",
+   "children": [
+    {
+     "id": "THM-HVAC",
+     "name": "Container HVAC plant",
+     "type": "assembly",
+     "owner_dept": "THM",
+     "children": []
+    },
+    {
+     "id": "THM-LOOP",
+     "name": "Coolant loop",
+     "type": "assembly",
+     "owner_dept": "THM",
+     "children": []
+    },
+    {
+     "id": "THM-CHL",
+     "name": "Container chiller",
+     "type": "assembly",
+     "owner_dept": "THM",
+     "children": []
+    },
+    {
+     "id": "THM-RCU",
+     "name": "Rack cooling units",
+     "type": "assembly",
+     "owner_dept": "THM",
+     "children": [
+      {
+       "id": "THM-RCU-R1",
+       "name": "Array inverter cooling 1",
+       "type": "part",
+       "owner_dept": "THM",
+       "children": []
+      },
+      {
+       "id": "THM-RCU-R2",
+       "name": "Array inverter cooling 2",
+       "type": "part",
+       "owner_dept": "THM",
+       "children": []
+      },
+      {
+       "id": "THM-RCU-R3",
+       "name": "Array inverter cooling 3",
+       "type": "part",
+       "owner_dept": "THM",
+       "children": []
+      },
+      {
+       "id": "THM-RCU-R4",
+       "name": "Array inverter cooling 4",
+       "type": "part",
+       "owner_dept": "THM",
+       "children": []
+      },
+      {
+       "id": "THM-RCU-G1",
+       "name": "Rack cooling container 1",
+       "type": "part",
+       "owner_dept": "THM",
+       "children": []
+      },
+      {
+       "id": "THM-RCU-G2",
+       "name": "Rack cooling container 2",
+       "type": "part",
+       "owner_dept": "THM",
+       "children": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "MTR-001",
+   "name": "Metering & comms network",
+   "type": "subsystem",
+   "owner_dept": "PVE",
+   "children": [
+    {
+     "id": "MTR-HEG-01",
+     "name": "Head-end gateway 1",
+     "type": "part",
+     "owner_dept": "PVE",
+     "children": []
+    },
+    {
+     "id": "MTR-HEG-02",
+     "name": "Head-end gateway 2",
+     "type": "part",
+     "owner_dept": "PVE",
+     "children": []
+    },
+    {
+     "id": "MTR-ACU-R1",
+     "name": "Array comms unit 1",
+     "type": "part",
+     "owner_dept": "PVE",
+     "children": []
+    },
+    {
+     "id": "MTR-ACU-R2",
+     "name": "Array comms unit 2",
+     "type": "part",
+     "owner_dept": "PVE",
+     "children": []
+    },
+    {
+     "id": "MTR-ACU-R3",
+     "name": "Array comms unit 3",
+     "type": "part",
+     "owner_dept": "PVE",
+     "children": []
+    },
+    {
+     "id": "MTR-ACU-R4",
+     "name": "Array comms unit 4",
+     "type": "part",
+     "owner_dept": "PVE",
+     "children": []
+    },
+    {
+     "id": "MTR-ACU-G1",
+     "name": "Container comms unit 1",
+     "type": "part",
+     "owner_dept": "PVE",
+     "children": []
+    },
+    {
+     "id": "MTR-ACU-G2",
+     "name": "Container comms unit 2",
+     "type": "part",
+     "owner_dept": "PVE",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "HIS-001",
+   "name": "Data historian",
+   "type": "subsystem",
+   "owner_dept": "EMS",
+   "children": [
+    {
+     "id": "HIS-SRV",
+     "name": "Historian servers",
+     "type": "assembly",
+     "owner_dept": "EMS",
+     "children": []
+    },
+    {
+     "id": "HIS-APP",
+     "name": "Application servers",
+     "type": "assembly",
+     "owner_dept": "EMS",
+     "children": []
+    },
+    {
+     "id": "HIS-STR",
+     "name": "Storage shelves",
+     "type": "assembly",
+     "owner_dept": "EMS",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "GEN-001",
+   "name": "Generation & storage",
+   "type": "subsystem",
+   "owner_dept": "PVE",
+   "children": [
+    {
+     "id": "GEN-PV",
+     "name": "PV arrays",
+     "type": "assembly",
+     "owner_dept": "PVE",
+     "children": [
+      {
+       "id": "GEN-PV-R1",
+       "name": "PV array 1",
+       "type": "rack",
+       "owner_dept": "PVE",
+       "children": [
+        {
+         "id": "GEN-PV-R1-N01",
+         "name": "String 1-01",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N01-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N01-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N02",
+         "name": "String 1-02",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N02-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N02-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N03",
+         "name": "String 1-03",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N03-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N03-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N04",
+         "name": "String 1-04",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N04-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N04-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N05",
+         "name": "String 1-05",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N05-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N05-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N06",
+         "name": "String 1-06",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N06-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N06-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N07",
+         "name": "String 1-07",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N07-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N07-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N08",
+         "name": "String 1-08",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N08-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N08-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N09",
+         "name": "String 1-09",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N09-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N09-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N10",
+         "name": "String 1-10",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N10-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N10-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N11",
+         "name": "String 1-11",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N11-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N11-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N12",
+         "name": "String 1-12",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N12-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N12-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N13",
+         "name": "String 1-13",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N13-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N13-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N14",
+         "name": "String 1-14",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N14-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N14-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N15",
+         "name": "String 1-15",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N15-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N15-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R1-N16",
+         "name": "String 1-16",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R1-N16-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R1-N16-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "GEN-PV-R2",
+       "name": "PV array 2",
+       "type": "rack",
+       "owner_dept": "PVE",
+       "children": [
+        {
+         "id": "GEN-PV-R2-N01",
+         "name": "String 2-01",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N01-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N01-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N02",
+         "name": "String 2-02",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N02-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N02-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N03",
+         "name": "String 2-03",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N03-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N03-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N04",
+         "name": "String 2-04",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N04-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N04-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N05",
+         "name": "String 2-05",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N05-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N05-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N06",
+         "name": "String 2-06",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N06-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N06-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N07",
+         "name": "String 2-07",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N07-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N07-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N08",
+         "name": "String 2-08",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N08-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N08-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N09",
+         "name": "String 2-09",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N09-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N09-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N10",
+         "name": "String 2-10",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N10-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N10-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N11",
+         "name": "String 2-11",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N11-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N11-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N12",
+         "name": "String 2-12",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N12-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N12-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N13",
+         "name": "String 2-13",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N13-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N13-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N14",
+         "name": "String 2-14",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N14-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N14-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N15",
+         "name": "String 2-15",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N15-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N15-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R2-N16",
+         "name": "String 2-16",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R2-N16-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R2-N16-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "GEN-PV-R3",
+       "name": "PV array 3",
+       "type": "rack",
+       "owner_dept": "PVE",
+       "children": [
+        {
+         "id": "GEN-PV-R3-N01",
+         "name": "String 3-01",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N01-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N01-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N02",
+         "name": "String 3-02",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N02-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N02-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N03",
+         "name": "String 3-03",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N03-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N03-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N04",
+         "name": "String 3-04",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N04-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N04-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N05",
+         "name": "String 3-05",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N05-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N05-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N06",
+         "name": "String 3-06",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N06-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N06-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N07",
+         "name": "String 3-07",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N07-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N07-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N08",
+         "name": "String 3-08",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N08-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N08-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N09",
+         "name": "String 3-09",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N09-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N09-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N10",
+         "name": "String 3-10",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N10-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N10-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N11",
+         "name": "String 3-11",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N11-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N11-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N12",
+         "name": "String 3-12",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N12-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N12-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N13",
+         "name": "String 3-13",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N13-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N13-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N14",
+         "name": "String 3-14",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N14-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N14-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N15",
+         "name": "String 3-15",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N15-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N15-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R3-N16",
+         "name": "String 3-16",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R3-N16-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R3-N16-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "GEN-PV-R4",
+       "name": "PV array 4",
+       "type": "rack",
+       "owner_dept": "PVE",
+       "children": [
+        {
+         "id": "GEN-PV-R4-N01",
+         "name": "String 4-01",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N01-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N01-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N02",
+         "name": "String 4-02",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N02-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N02-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N03",
+         "name": "String 4-03",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N03-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N03-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N04",
+         "name": "String 4-04",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N04-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N04-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N05",
+         "name": "String 4-05",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N05-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N05-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N06",
+         "name": "String 4-06",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N06-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N06-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N07",
+         "name": "String 4-07",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N07-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N07-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N08",
+         "name": "String 4-08",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N08-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N08-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N09",
+         "name": "String 4-09",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N09-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N09-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N10",
+         "name": "String 4-10",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N10-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N10-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N11",
+         "name": "String 4-11",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N11-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N11-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N12",
+         "name": "String 4-12",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N12-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N12-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N13",
+         "name": "String 4-13",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N13-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N13-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N14",
+         "name": "String 4-14",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N14-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N14-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N15",
+         "name": "String 4-15",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N15-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N15-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-PV-R4-N16",
+         "name": "String 4-16",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-PV-R4-N16-FUS",
+           "name": "String fuse",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-PV-R4-N16-MOD",
+           "name": "PV module 540 W",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "GEN-BAT",
+     "name": "Battery containers",
+     "type": "assembly",
+     "owner_dept": "PVE",
+     "children": [
+      {
+       "id": "GEN-BAT-R1",
+       "name": "Battery container 1",
+       "type": "rack",
+       "owner_dept": "PVE",
+       "children": [
+        {
+         "id": "GEN-BAT-R1-N01",
+         "name": "Battery rack 1-01",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R1-N01-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N01-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N01-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R1-N02",
+         "name": "Battery rack 1-02",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R1-N02-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N02-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N02-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R1-N03",
+         "name": "Battery rack 1-03",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R1-N03-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N03-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N03-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R1-N04",
+         "name": "Battery rack 1-04",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R1-N04-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N04-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N04-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R1-N05",
+         "name": "Battery rack 1-05",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R1-N05-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N05-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N05-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R1-N06",
+         "name": "Battery rack 1-06",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R1-N06-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N06-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N06-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R1-N07",
+         "name": "Battery rack 1-07",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R1-N07-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N07-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N07-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R1-N08",
+         "name": "Battery rack 1-08",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R1-N08-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N08-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R1-N08-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "id": "GEN-BAT-R2",
+       "name": "Battery container 2",
+       "type": "rack",
+       "owner_dept": "PVE",
+       "children": [
+        {
+         "id": "GEN-BAT-R2-N01",
+         "name": "Battery rack 2-01",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R2-N01-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N01-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N01-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R2-N02",
+         "name": "Battery rack 2-02",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R2-N02-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N02-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N02-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R2-N03",
+         "name": "Battery rack 2-03",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R2-N03-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N03-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N03-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R2-N04",
+         "name": "Battery rack 2-04",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R2-N04-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N04-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N04-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R2-N05",
+         "name": "Battery rack 2-05",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R2-N05-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N05-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N05-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R2-N06",
+         "name": "Battery rack 2-06",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R2-N06-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N06-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N06-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R2-N07",
+         "name": "Battery rack 2-07",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R2-N07-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N07-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N07-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        },
+        {
+         "id": "GEN-BAT-R2-N08",
+         "name": "Battery rack 2-08",
+         "type": "node",
+         "owner_dept": "PVE",
+         "children": [
+          {
+           "id": "GEN-BAT-R2-N08-FUS",
+           "name": "BMS controller",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N08-BMD",
+           "name": "Battery module",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          },
+          {
+           "id": "GEN-BAT-R2-N08-MOD",
+           "name": "Cell sensor",
+           "type": "part",
+           "owner_dept": "PVE",
+           "children": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "EMS-001",
+   "name": "Energy management software",
+   "type": "subsystem",
+   "owner_dept": "EMS",
+   "children": [
+    {
+     "id": "EMS-BASE",
+     "name": "EMS baseline",
+     "type": "assembly",
+     "owner_dept": "EMS",
+     "children": []
+    },
+    {
+     "id": "EMS-DSP",
+     "name": "Dispatch & scheduling",
+     "type": "assembly",
+     "owner_dept": "EMS",
+     "children": []
+    },
+    {
+     "id": "EMS-MON",
+     "name": "Monitoring dashboards",
+     "type": "assembly",
+     "owner_dept": "EMS",
+     "children": []
+    },
+    {
+     "id": "EMS-APPB",
+     "name": "Consumer app & billing",
+     "type": "assembly",
+     "owner_dept": "EMS",
+     "children": []
+    }
+   ]
+  },
+  {
+   "id": "CMY-001",
+   "name": "Community readiness",
+   "type": "subsystem",
+   "owner_dept": "COM",
+   "children": [
+    {
+     "id": "CMY-CON",
+     "name": "Household connections",
+     "type": "assembly",
+     "owner_dept": "COM",
+     "children": []
+    },
+    {
+     "id": "CMY-TRF",
+     "name": "Tariff & billing rules",
+     "type": "assembly",
+     "owner_dept": "COM",
+     "children": []
+    },
+    {
+     "id": "CMY-ISL",
+     "name": "Islanded test",
+     "type": "assembly",
+     "owner_dept": "COM",
+     "children": []
+    }
+   ]
+  }
+ ]
+}

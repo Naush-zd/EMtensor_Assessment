@@ -1,0 +1,243 @@
+expense_id,dept_id,allocation_id,category,po_id,vendor,amount_inr,expense_date,description,invoice_no,requested_by,approved_by
+EX00213,COM,AL121,software_licences,,Agni Suraksha,508021,2025-10-22,EMS licence,INV/AGN/3152,R051,R047
+EX00188,PUR,AL101,travel,,,13540,2025-10-24,Factory inspection visit,INV/GEN/33794,R056,R055
+EX00122,SIT,AL013,travel,,,107498,2025-10-25,Factory inspection visit,INV/GEN/97646,R003,R001
+EX00189,PUR,AL101,travel,,,149526,2025-10-25,"MNRE review meeting, New Delhi",INV/GEN/6569,R057,R055
+EX00027,SIT,AL005,manpower,,,260000,2025-10-31,Project staff salaries Oct 2025,PAY/SIT/202510,R005,R058
+EX00028,GRD,AL021,manpower,,,172000,2025-10-31,Project staff salaries Oct 2025,PAY/GRD/202510,R009,R058
+EX00029,THM,AL037,manpower,,,257000,2025-10-31,Project staff salaries Oct 2025,PAY/THM/202510,R023,R058
+EX00030,PVE,AL053,manpower,,,298000,2025-10-31,Project staff salaries Oct 2025,PAY/PVE/202510,R034,R058
+EX00031,EMS,AL069,manpower,,,257000,2025-10-31,Project staff salaries Oct 2025,PAY/EMS/202510,R042,R058
+EX00032,COM,AL081,manpower,,,259000,2025-10-31,Project staff salaries Oct 2025,PAY/COM/202510,R047,R058
+EX00033,PMO,AL105,manpower,,,84000,2025-10-31,Project staff salaries Oct 2025,PAY/PMO/202510,R058,R058
+EX00132,GRD,AL025,consumables,,Gramin Supplies,47346,2025-10-31,Earthing material,INV/GRA/58945,R012,R008
+EX00171,COM,AL085,consumables,,MeterMitra Technologies,97271,2025-11-02,Cables & lugs,INV/MET/27283,R047,R047
+EX00165,EMS,AL073,consumables,,Ujjwal Switchgear,27745,2025-11-14,Cables & lugs,INV/UJJ/61749,R046,R036
+EX00179,COM,AL089,travel,,,14613,2025-11-17,"MNRE review meeting, New Delhi",INV/GEN/90450,R053,R047
+EX00135,GRD,AL029,travel,,,81743,2025-11-19,"MNRE review meeting, New Delhi",INV/GEN/99391,R013,R008
+EX00166,EMS,AL073,consumables,,Gramin Supplies,"₹147,621",2025-11-19,Test kits,INV/GRA/39789,R038,R036
+EX00214,COM,AL121,software_licences,,Gridline Electricals,246486,2025-11-20,Billing licence,INV/GRI/6891,R049,R047
+EX00144,THM,AL045,travel,,,114051,2025-11-21,"MNRE review meeting, New Delhi",INV/GEN/60034,R023,R016
+EX00131,GRD,AL025,consumables,,Satpuda Civil Works,131542,2025-11-23,Test kits,INV/SAT/88761,R008,R008
+EX00153,PVE,AL057,consumables,,Suryodaya Solar,81321,2025-11-27,Cables & lugs,INV/SUR/25600,R031,R024
+EX00034,SIT,AL005,manpower,,,305000,2025-11-30,Project staff salaries Nov 2025,PAY/SIT/202511,R005,R058
+EX00035,GRD,AL021,manpower,,,257000,2025-11-30,Project staff salaries Nov 2025,PAY/GRD/202511,R014,R058
+EX00036,THM,AL037,manpower,,,257000,2025-11-30,Project staff salaries Nov 2025,PAY/THM/202511,R016,R058
+EX00037,PVE,AL053,manpower,,,383000,2025-11-30,Project staff salaries Nov 2025,PAY/PVE/202511,R025,R058
+EX00038,EMS,AL069,manpower,,,432000,2025-11-30,Project staff salaries Nov 2025,PAY/EMS/202511,R046,R058
+EX00039,COM,AL081,manpower,,,301000,2025-11-30,Project staff salaries Nov 2025,PAY/COM/202511,R051,R058
+EX00040,PUR,AL093,manpower,,,42000,2025-11-30,Project staff salaries Nov 2025,PAY/PUR/202511,R055,R058
+EX00041,PMO,AL105,manpower,,,84000,2025-11-30,Project staff salaries Nov 2025,PAY/PMO/202511,R059,R058
+EX00201,PMO,AL113,travel,,,44053,2025-12-01,Village awareness camp,INV/GEN/92716,R061,R058
+EX00219,COM,AL121,software_licences,,MeterMitra Technologies,321477,2025-12-06,Design software licence,INV/MET/10367,R050,R047
+EX00116,SIT,AL009,consumables,,Agni Suraksha,30751,2025-12-07,Earthing material,INV/AGN/71399,R005,R001
+EX00136,GRD,AL029,travel,,,115427,2025-12-12,"MNRE review meeting, New Delhi",INV/GEN/5636,R011,R008
+EX00121,SIT,AL009,consumables,,Suryodaya Solar,155788,2025-12-19,Test kits,INV/SUR/61403,R004,R001
+EX00137,THM,AL041,consumables,,Satpuda Civil Works,84309,2025-12-19,Earthing material,INV/SAT/13734,R021,R016
+EX00190,PMO,AL109,consumables,,MeterMitra Technologies,36267,2025-12-20,Test kits,INV/MET/19806,R058,R058
+EX00138,THM,AL041,consumables,,Thermocool Systems,118428,2025-12-27,Cables & lugs,INV/THE/6451,R017,R016
+EX00161,EMS,AL073,consumables,,MeterMitra Technologies,129416,27/12/2025,Spares,INV/MET/61494,R043,R036
+EX00042,SIT,AL005,manpower,,,305000,2025-12-31,Project staff salaries Dec 2025,PAY/SIT/202512,R001,R058
+EX00043,GRD,AL021,manpower,,,257000,2025-12-31,Project staff salaries Dec 2025,PAY/GRD/202512,R012,R058
+EX00044,THM,AL037,manpower,,,257000,2025-12-31,Project staff salaries Dec 2025,PAY/THM/202512,R019,R058
+EX00045,PVE,AL053,manpower,,,383000,2025-12-31,Project staff salaries Dec 2025,PAY/PVE/202512,R034,R058
+EX00046,EMS,AL069,manpower,,,432000,2025-12-31,Project staff salaries Dec 2025,PAY/EMS/202512,R046,R058
+EX00047,COM,AL081,manpower,,,301000,2025-12-31,Project staff salaries Dec 2025,PAY/COM/202512,R050,R058
+EX00048,PUR,AL093,manpower,,,42000,2025-12-31,Project staff salaries Dec 2025,PAY/PUR/202512,R055,R058
+EX00049,PMO,AL105,manpower,,,84000,2025-12-31,Project staff salaries Dec 2025,PAY/PMO/202512,R061,R058
+EX00142,THM,AL041,consumables,,Gramin Supplies,15251,2026-01-04,Cables & lugs,INV/GRA/57942,R023,R016
+EX00187, PUR ,AL101,travel,,,82285,2026-01-05,Village awareness camp,INV/GEN/88264,R056,R055
+EX00123,SIT,AL013,travel,,,124185,2026-01-08,"MNRE review meeting, New Delhi",INV/GEN/17332,R006,R001
+EX00159,PVE,AL061,travel,,,142051,2026-01-08,"MNRE review meeting, New Delhi",INV/GEN/48864,R027,R024
+EX00195,PMO,AL109,consumables,,Satpuda Civil Works,157161,2026-01-10,Test kits,INV/SAT/51925,R060,R058
+EX00117,SIT,AL009,consumables,,Ujjwal Switchgear,49040,2026-01-11,Earthing material,INV/UJJ/71329,R005,R001
+EX00164,EMS,AL073,consumables,,MeterMitra Technologies,168960,2026-01-11,Cables & lugs,INV/MET/77927,R043,R036
+EX00125,GRD,AL025,consumables,,Gridline Electricals,111266,2026-01-13,Spares,INV/GRI/61228,R015,R008
+EX00128,GRD,AL025,consumables,,MeterMitra Technologies,125828,2026-01-13,Earthing material,INV/MET/50195,R010,R008
+EX00172,COM,AL085,consumables,,Agni Suraksha,166380,2026-01-15,Test kits,INV/AGN/55019,R047,R047
+EX00158,PVE,AL061,travel,,,18268,2026-01-16,Village awareness camp,INV/GEN/35193,R025,R024
+EX00127,GRD,AL025,consumables,,Gramin Supplies,57124,2026-01-21,Earthing material,INV/GRA/78217,R008,R008
+EX00200,PMO,AL113,travel,,,68398,2026-01-25,Factory inspection visit,INV/GEN/4962,R061,R058
+EX00148,PVE,AL057,consumables,,Satpuda Civil Works,107139,2026-01-26,Spares,INV/SAT/15744,R031,R024
+EX00050,SIT,AL005,manpower,,,390000,2026-01-31,Project staff salaries Jan 2026,PAY/SIT/202601,R006,R058
+EX00051,GRD,AL021,manpower,,,257000,2026-01-31,Project staff salaries Jan 2026,PAY/GRD/202601,R015,R058
+EX00052,THM,AL037,manpower,,,302000,2026-01-31,Project staff salaries Jan 2026,PAY/THM/202601,R023,R058
+EX00053,PVE,AL053,manpower,,,553000,2026-01-31,Project staff salaries Jan 2026,PAY/PVE/202601,R025,R058
+EX00054,EMS,AL069,manpower,,,517000,2026-01-31,Project staff salaries Jan 2026,PAY/EMS/202601,R040,R058
+EX00055,COM,AL081,manpower,,,386000,2026-01-31,Project staff salaries Jan 2026,PAY/COM/202601,R048,R058
+EX00056,PUR,AL093,manpower,,,84000,2026-01-31,Project staff salaries Jan 2026,PAY/PUR/202601,R056,R058
+EX00057,PMO,AL105,manpower,,,84000,2026-01-31,Project staff salaries Jan 2026,PAY/PMO/202601,R059,R058
+EX00178,COM,AL089,travel,,,13207,2026-02-02,"MNRE review meeting, New Delhi",INV/GEN/82736,R054,R047
+EX00160,PVE,AL061,travel,,,46124,2026-02-03,Factory inspection visit,INV/GEN/97947,R034,R024
+EX00009,GRD,AL017,equipment,PO-2026-005,Gridline Electricals,1836000,2026-02-06,Advance 30% - Central inverter,INV/GRI/68704,R014,R008
+EX00149,PVE,AL057,consumables,,Kaveri Data Systems,122412,2026-02-06,Earthing material,INV/KAV/32322,R028,R024
+EX00001,SIT,AL001,civil_works,PO-2026-001,Satpuda Civil Works,1282500,2026-02-08,Advance 30% - Foundations & array structures,INV/SAT/99944,R004,R001
+EX00143,THM,AL041,consumables,,Agni Suraksha,128337,2026-02-11,Spares,INV/AGN/6578,R022,R016
+EX00191,PMO,AL109,consumables,,Gridline Electricals,28802,2026-02-11,Spares,INV/GRI/32520,R060,R058
+EX00014,THM,AL033,equipment,PO-2026-008,Thermocool Systems,3105000,2026-02-13,Advance 30% - Container HVAC plant,INV/THE/25928,R021,R016
+EX00023,PVE,AL049,equipment,PO-2026-014,MeterMitra Technologies,3645000,2026-02-13,Advance 30% - Metering & comms network,INV/MET/11979,R033,R024
+EX00025,EMS,AL065,equipment,PO-2026-015,Kaveri Data Systems,4320000,2026-02-13,Advance 30% - Data historian,INV/KAV/3314,R040,R036
+EX00007,GRD,AL017,equipment,PO-2026-004,Ujjwal Switchgear,1890000,2026-02-15,Advance 30% - 11 kV substation,INV/UJJ/40728,R015,R008
+EX00199,PMO,AL113,travel,,,28931,2026-02-20,Village awareness camp,INV/GEN/31686,R061,R058
+EX00173,COM,AL085,consumables,,Gramin Supplies,47100,2026-02-21,Spares,INV/GRA/19207,R051,R047
+EX00208,EMS,AL117,software_licences,,Gridline Electricals,202957,2026-02-24,Billing licence,INV/GRI/96834,R043,R036
+EX00152,PVE,AL057,consumables,,Thermocool Systems,33774,2026-02-27,Test kits,INV/THE/4685,R025,R024
+EX00058,SIT,AL005,manpower,,,390000,2026-02-28,Project staff salaries Feb 2026,PAY/SIT/202602,R002,R058
+EX00059,GRD,AL021,manpower,,,257000,2026-02-28,Project staff salaries Feb 2026,PAY/GRD/202602,R011,R058
+EX00060,THM,AL037,manpower,,,302000,2026-02-28,Project staff salaries Feb 2026,PAY/THM/202602,R022,R058
+EX00061,PVE,AL053,manpower,,,553000,2026-02-28,Project staff salaries Feb 2026,PAY/PVE/202602,R029,R058
+EX00062,EMS,AL069,manpower,,,517000,2026-02-28,Project staff salaries Feb 2026,PAY/EMS/202602,R043,R058
+EX00063,COM,AL081,manpower,,,386000,2026-02-28,Project staff salaries Feb 2026,PAY/COM/202602,R050,R058
+EX00064,PUR,AL093,manpower,,,84000,2026-02-28,Project staff salaries Feb 2026,PAY/PUR/202602,R057,R058
+EX00065,PMO,AL105,manpower,,,84000,2026-02-28,Project staff salaries Feb 2026,PAY/PMO/202602,R061,R058
+EX00145,THM,AL045,travel,,,126938,2026-02-28,Factory inspection visit,INV/GEN/99636,R018,R016
+EX00154,PVE,AL057,consumables,,Satpuda Civil Works,179115,2026-03-05,Earthing material,INV/SAT/22907,R029,R024
+EX00216,COM,AL121,software_licences,,Suryodaya Solar,379178,2026-03-07,Design software licence,INV/SUR/81448,R047,R047
+EX00010,GRD,AL017,equipment,PO-2026-005,Gridline Electricals,3672000,2026-03-08,Payment on delivery 60% - Central inverter,INV/GRI/2271,R012,R008
+EX00174,COM,AL085,consumables,,Agni Suraksha,157084,2026-03-09,Cables & lugs,INV/AGN/51775,R052,R047
+EX00119,SIT,AL009,consumables,,Gridline Electricals,172048,2026-03-15,Cables & lugs,INV/GRI/27402,R007,R001
+EX00011,GRD,AL017,equipment,PO-2026-006,Gridline Electricals,1215000,2026-03-16,Advance 30% - Backup genset,INV/GRI/71870,R008,R008
+EX00150,PVE,AL057,consumables,,MeterMitra Technologies,12160,2026-03-19,Spares,INV/MET/44278,R030,R024
+EX00118,SIT,AL009,consumables,,MeterMitra Technologies,157338,2026-03-20,Spares,INV/MET/54795,R007,R001
+EX00221,GRD,AL017,equipment,PO-2026-006,Gridline Electricals,1215000,2026-03-22,Advance 30% - Backup genset,INV/GRI/71870,R008,R008
+EX00177,COM,AL089,travel,,,165625,2026-03-24,Factory inspection visit,INV/GEN/9812,R054,R047
+EX00180,COM,AL089,travel,,,45603,2026-03-25,"MNRE review meeting, New Delhi",INV/GEN/34770,R047,R047
+EX00005,SIT,AL001,civil_works,PO-2026-003,Satpuda Civil Works,283500,2026-03-26,Advance 30% - Fencing & surveillance,INV/SAT/23585,R006,R001
+EX00207,EMS,AL117,software_licences,,Gridline Electricals,561631,2026-03-28,Billing licence,INV/GRI/71261,R041,R036
+EX00234,GRD,AL025,consumables,,MeterMitra Technologies,67369,2026-03-30,Year-end purchase,INV/MET/54272,R009,R008
+EX00236,GRD,AL025,consumables,,Ujjwal Switchgear,76981,2026-03-30,Year-end purchase,INV/UJJ/12608,R011,R008
+EX00237,GRD,AL025,consumables,,Ujjwal Switchgear,46078,2026-03-30,Year-end purchase,INV/UJJ/64449,R009,R008
+EX00238,GRD,AL025,consumables,,Suryodaya Solar,67370,2026-03-30,Year-end purchase,INV/SUR/95958,R008,R008
+EX00240,GRD,AL025,consumables,,Thermocool Systems,70632,2026-03-30,Year-end purchase,INV/THE/20495,R010,R008
+EX00066,SIT,AL005,manpower,,,390000,2026-03-31,Project staff salaries Mar 2026,PAY/SIT/202603,R002,R058
+EX00067,GRD,AL021,manpower,,,257000,2026-03-31,Project staff salaries Mar 2026,PAY/GRD/202603,R010,R058
+EX00068,THM,AL037,manpower,,,302000,2026-03-31,Project staff salaries Mar 2026,PAY/THM/202603,R017,R058
+EX00069,PVE,AL053,manpower,,,553000,2026-03-31,Project staff salaries Mar 2026,PAY/PVE/202603,R035,R058
+EX00070,EMS,AL069,manpower,,,517000,2026-03-31,Project staff salaries Mar 2026,PAY/EMS/202603,R045,R058
+EX00071,COM,AL081,manpower,,,386000,2026-03-31,Project staff salaries Mar 2026,PAY/COM/202603,R050,R058
+EX00072,PUR,AL093,manpower,,,84000,2026-03-31,Project staff salaries Mar 2026,PAY/PUR/202603,R057,R058
+EX00073,PMO,AL105,manpower,,,84000,2026-03-31,Project staff salaries Mar 2026,PAY/PMO/202603,R060,R058
+EX00235,GRD,AL025,consumables,,Thermocool Systems,40941,2026-03-31,Year-end purchase,INV/THE/99693,R009,R008
+EX00239,GRD,AL025,consumables,,Satpuda Civil Works,70417,2026-03-31,Year-end purchase,INV/SAT/8211,R015,R008
+EX00003,SIT,AL001,civil_works,PO-2026-002,Agni Suraksha,837000,2026-04-01,Advance 30% - Fire safety system,INV/AGN/69430,R006,R001
+EX00182,PUR,AL097,consumables,,Kaveri Data Systems,123414,2026-04-01,Earthing material,INV/KAV/91480,R057,R055
+EX00192,PMO,AL109,consumables,,MeterMitra Technologies,31742,2026-04-01,Earthing material,INV/MET/85681,R059,R058
+EX00016,THM,AL033,equipment,PO-2026-009,Thermocool Systems,729000,2026-04-07,Advance 30% - Coolant loop,INV/THE/47503,R017,R016
+EX00020,PVE,AL049,equipment,PO-2026-012,Suryodaya Solar,8432640,2026-04-10,Advance 30% - PV arrays,INV/SUR/35911,R034,R024
+EX00134,GRD,AL029,travel,,,109773,2026-04-12,"MNRE review meeting, New Delhi",INV/GEN/39594,R010,R008
+EX00167,EMS,AL073,consumables,,Ujjwal Switchgear,149342,2026-04-12,Test kits,INV/UJJ/89518,R043,R036
+EX00013,GRD,AL017,equipment,PO-2026-007,Ujjwal Switchgear,324000,2026-04-23,Advance 30% - Array feeders,INV/UJJ/97310,R013,R008
+EX00175,COM,AL089,travel,,,37893,2026-04-26,Village awareness camp,INV/GEN/71002,R054,R047
+EX00074,SIT,AL005,manpower,,,390000,2026-04-30,Project staff salaries Apr 2026,PAY/SIT/202604,R001,R058
+EX00075,GRD,AL021,manpower,,,257000,2026-04-30,Project staff salaries Apr 2026,PAY/GRD/202604,R014,R058
+EX00076,THM,AL037,manpower,,,302000,2026-04-30,Project staff salaries Apr 2026,PAY/THM/202604,R021,R058
+EX00077,PVE,AL053,manpower,,,553000,2026-04-30,Project staff salaries Apr 2026,PAY/PVE/202604,R024,R058
+EX00078,EMS,AL069,manpower,,,517000,2026-04-30,Project staff salaries Apr 2026,PAY/EMS/202604,R042,R058
+EX00079,COM,AL081,manpower,,,386000,2026-04-30,Project staff salaries Apr 2026,PAY/COM/202604,R050,R058
+EX00080,PUR,AL093,manpower,,,84000,2026-04-30,Project staff salaries Apr 2026,PAY/PUR/202604,R057,R058
+EX00081,PMO,AL105,manpower,,,84000,2026-04-30,Project staff salaries Apr 2026,PAY/PMO/202604,R060,R058
+EX00206,EMS,AL117,software_licences,,MeterMitra Technologies,148270,2026-04-30,Design software licence,INV/MET/22191,R039,R036
+EX00124,SIT,AL013,travel,,,84628,2026-05-02,"MNRE review meeting, New Delhi",INV/GEN/82608,R003,R001
+EX00202,PMO,AL114,travel,,,168267,2026-05-04,"MNRE review meeting, New Delhi",INV/GEN/39346,R059,R058
+EX00204,PMO,AL114,travel,,,47856,2026-05-05,"MNRE review meeting, New Delhi",INV/GEN/5611,R058,R058
+EX00018,THM,AL034,equipment,PO-2026-010,Thermocool Systems,1053000,2026-05-08,Advance 30% - Container chiller,INV/THE/74916,R018,R016
+EX00022,PVE,AL050,equipment,PO-2026-013,Suryodaya Solar,9694080,2026-05-08,Advance 30% - Battery containers,INV/SUR/53089,R026,R024
+EX00210, EMS ,AL118,software_licences,,Suryodaya Solar,291903,2026-05-14,Design software licence,INV/SUR/43219,R042,R036
+EX00209,EMS,AL118,software_licences,,Gridline Electricals,265262,2026-05-17,Billing licence,INV/GRI/99255,R036,R036
+EX00186,PUR,AL102,travel,,,63121,2026-05-18,Village awareness camp,INV/GEN/90729,R057,R055
+EX00141,THM,AL042,consumables,,Gramin Supplies,113281,2026-05-22,Earthing material,INV/GRA/22862,R021,R016
+EX00126,GRD,AL026,consumables,,Satpuda Civil Works,113071,2026-05-27,Earthing material,INV/SAT/62856,R014,R008
+EX00147,PVE,AL058,consumables,,Gramin Supplies,29217,2026-05-28,Cables & lugs,INV/GRA/45757,R028,R024
+EX00082,SIT,AL006,manpower,,,390000,2026-05-31,Project staff salaries May 2026,PAY/SIT/202605,R007,R058
+EX00083,GRD,AL022,manpower,,,257000,2026-05-31,Project staff salaries May 2026,PAY/GRD/202605,R009,R058
+EX00084,THM,AL038,manpower,,,217000,2026-05-31,Project staff salaries May 2026,PAY/THM/202605,R016,R058
+EX00085,PVE,AL054,manpower,,,553000,2026-05-31,Project staff salaries May 2026,PAY/PVE/202605,R034,R058
+EX00086,EMS,AL070,manpower,,,517000,2026-05-31,Project staff salaries May 2026,PAY/EMS/202605,R037,R058
+EX00087,COM,AL082,manpower,,,386000,2026-05-31,Project staff salaries May 2026,PAY/COM/202605,R047,R058
+EX00088,PUR,AL094,manpower,,,84000,2026-05-31,Project staff salaries May 2026,PAY/PUR/202605,R057,R058
+EX00089,PMO,AL106,manpower,,,84000,2026-05-31,Project staff salaries May 2026,PAY/PMO/202605,R061,R058
+EX00008,GRD,AL018,equipment,PO-2026-004,Ujjwal Switchgear,3780000,2026-06-04,Payment on delivery 60% - 11 kV substation,INV/UJJ/7659,R014,R008
+EX00170,EMS,AL078,travel,,,171661,2026-06-06,Village awareness camp,INV/GEN/69551,R044,R036
+EX00002,SIT,AL002,civil_works,PO-2026-001,Satpuda Civil Works,2565000,2026-06-08,Payment on delivery 60% - Foundations & array structures,INV/SAT/35001,R006,R001
+EX00015,THM,AL034,equipment,PO-2026-008,Thermocool Systems,6210000,2026-06-10,Payment on delivery 60% - Container HVAC plant,INV/THE/95972,R019,R016
+EX00229,COM,AL122,software_licences,,Gramin Supplies,303008,2026-06-10,Licence renewal,INV/GRA/71762,R048,R047
+EX00163,EMS,AL074,consumables,,MeterMitra Technologies,28034,2026-06-11,Test kits,INV/MET/71025,R041,R036
+EX00241,GRD,AL018,equipment,,,-297340,2026-06-12,Adjustment,,R011,R008
+EX00230,COM,AL122,software_licences,,Gramin Supplies,292819,2026-06-13,Licence renewal,INV/GRA/34803,R054,R047
+EX00231,COM,AL122,software_licences,,Gramin Supplies,393445,2026-06-16,Licence renewal,INV/GRA/39432,R050,R047
+EX00232,COM,AL122,software_licences,,Gramin Supplies,282463,2026-06-19,Licence renewal,INV/GRA/96434,R048,R047
+EX00233,COM,AL122,software_licences,,Gramin Supplies,332366,2026-06-22,Licence renewal,INV/GRA/60798,R054,R047
+EX00217,COM,AL122,software_licences,,Kaveri Data Systems,357877,2026-06-23,Design software licence,INV/KAV/3199,R052,R047
+EX00129,GRD,AL026,consumables,,MeterMitra Technologies,57383,2026-06-25,Test kits,INV/MET/28497,R012,R008
+EX00146,THM,AL046,travel,,,88330,2026-06-28,Village awareness camp,INV/GEN/75497,R022,R016
+EX00090,SIT,AL006,manpower,,,390000,2026-06-30,Project staff salaries Jun 2026,PAY/SIT/202606,R002,R058
+EX00091,GRD,AL022,manpower,,,257000,2026-06-30,Project staff salaries Jun 2026,PAY/GRD/202606,R015,R058
+EX00092,THM,AL038,manpower,,,217000,2026-06-30,Project staff salaries Jun 2026,PAY/THM/202606,R021,R058
+EX00093,PVE,AL054,manpower,,,553000,2026-06-30,Project staff salaries Jun 2026,PAY/PVE/202606,R033,R058
+EX00094,EMS,AL070,manpower,,,517000,2026-06-30,Project staff salaries Jun 2026,PAY/EMS/202606,R046,R058
+EX00095,COM,AL082,manpower,,,386000,2026-06-30,Project staff salaries Jun 2026,PAY/COM/202606,R050,R058
+EX00096,PUR,AL094,manpower,,,84000,2026-06-30,Project staff salaries Jun 2026,PAY/PUR/202606,R056,R058
+EX00097,PMO,AL106,manpower,,,84000,2026-06-30,Project staff salaries Jun 2026,PAY/PMO/202606,R059,R058
+EX00196,PMO,AL110,consumables,,Ujjwal Switchgear,176057,2026-07-02,Test kits,INV/UJJ/81332,R061,R058
+EX00019,THM,AL034,equipment,PO-2026-011,Thermocool Systems,877500,2026-07-03,Advance 30% - Rack cooling units,INV/THE/52245,R019,R016
+EX00211,EMS,AL118,software_licences,,Gridline Electricals,351087,2026-07-04,Billing licence,INV/GRI/87308,R040,R036
+EX00162,EMS,AL074,consumables,,Gridline Electricals,167653,2026-07-06,Test kits,INV/GRI/59079,R042,R036
+EX00114,SIT,AL010,consumables,,Suryodaya Solar,127904,2026-07-08,Spares,INV/SUR/8640,R005,R001
+EX00228,THM,AL042,consumables,,Satpuda Civil Works,120769,2026-07-08,Spares,INV/SAT/33253,R017,R022
+EX00181,COM,AL090,travel,,,153173,2026-07-09,Factory inspection visit,INV/GEN/69449,R050,R047
+EX00185,PUR,AL098,consumables,,Gramin Supplies,148558,2026-07-14,Cables & lugs,INV/GRA/84339,R057,R055
+EX00176,COM,AL090,travel,,,169707,2026-07-16,Factory inspection visit,INV/GEN/28966,R054,R047
+EX00183,PUR,AL098,consumables,,Kaveri Data Systems,44290,2026-07-16,Earthing material,INV/KAV/49424,R057,R055
+EX00026,EMS,AL066,equipment,PO-2026-015,Kaveri Data Systems,8640000,2026-07-17,Payment on delivery 60% - Data historian,INV/KAV/49516,R036,R036
+EX00169,EMS,AL078,travel,,,29435,2026-07-17,Factory inspection visit,INV/GEN/16232,R044,R036
+EX00139,THM,AL042,consumables,,Gramin Supplies,177009,2026-07-18,Earthing material,INV/GRA/74170,R018,R016
+EX00223,COM,AL086,consumables,,MeterMitra Technologies,355861,2026-07-18,Bulk purchase,INV/MET/54813,R050,R047
+EX00224,COM,AL086,consumables,,Gridline Electricals,448462,2026-07-18,Bulk purchase,INV/GRI/43739,R054,R047
+EX00155,PVE,AL058,consumables,,Ujjwal Switchgear,118761,2026-07-20,Cables & lugs,INV/UJJ/62572,R026,R024
+EX00151,PVE,AL058,consumables,,MeterMitra Technologies,81479,2026-07-22,Earthing material,INV/MET/87605,R030,R024
+EX00021,PVE,AL050,equipment,PO-2026-012,Suryodaya Solar,16865280,2026-07-24,Payment on delivery 60% - PV arrays,INV/SUR/48775,R027,R024
+EX00024,PVE,AL050,equipment,PO-2026-014,MeterMitra Technologies,7290000,2026-07-26,Payment on delivery 60% - Metering & comms network,INV/MET/65294,R031,R024
+EX00006,SIT,AL002,civil_works,PO-2026-003,Satpuda Civil Works,567000,2026-07-28,Payment on delivery 60% - Fencing & surveillance,INV/SAT/80121,R003,R001
+EX00194,PMO,AL110,consumables,,Ujjwal Switchgear,46356,2026-07-30,Cables & lugs,INV/UJJ/79218,R061,R058
+EX00098,SIT,AL006,manpower,,,390000,2026-07-31,Project staff salaries Jul 2026,PAY/SIT/202607,R007,R058
+EX00099,GRD,AL022,manpower,,,257000,2026-07-31,Project staff salaries Jul 2026,PAY/GRD/202607,R015,R058
+EX00100,THM,AL038,manpower,,,217000,2026-07-31,Project staff salaries Jul 2026,PAY/THM/202607,R022,R058
+EX00101,PVE,AL054,manpower,,,553000,2026-07-31,Project staff salaries Jul 2026,PAY/PVE/202607,R034,R058
+EX00102,EMS,AL070,manpower,,,517000,2026-07-31,Project staff salaries Jul 2026,PAY/EMS/202607,R042,R058
+EX00103,COM,AL082,manpower,,,386000,2026-07-31,Project staff salaries Jul 2026,PAY/COM/202607,R050,R058
+EX00104,PUR,AL094,manpower,,,84000,2026-07-31,Project staff salaries Jul 2026,PAY/PUR/202607,R056,R058
+EX00105,PMO,AL106,manpower,,,84000,2026-07-31,Project staff salaries Jul 2026,PAY/PMO/202607,R058,R058
+EX00225,PVE,AL050,equipment,,Gramin Supplies,2621337,2026-08-02,Urgent inverter spares - direct purchase,INV/GRA/49171,R035,R024
+EX00203,PMO,AL114,travel,,,142487,2026-08-03,Village awareness camp,INV/GEN/38032,R058,R058
+EX00242,PVE,AL050,equipment,PO-2026-012,Gramin Supplies,1138255,2026-08-03,PV test equipment,INV/GRA/36317,R024,R024
+EX00197,PMO,AL114,travel,,,25518,2026-08-05,Factory inspection visit,INV/GEN/93628,R059,R058
+EX00212,EMS,AL118,software_licences,,Agni Suraksha,198933,2026-08-05,EMS licence,INV/AGN/49204,R042,R036
+EX00215, COM ,AL122,software_licences,,Kaveri Data Systems,512648,2026-08-05,Design software licence,INV/KAV/77002,R048,R047
+EX00156,PVE,AL058,consumables,,Suryodaya Solar,61540,2026-08-07,Cables & lugs,INV/SUR/31803,R034,R024
+EX00004,SIT,AL002,civil_works,PO-2026-002,Agni Suraksha,1674000,2026-08-08,Payment on delivery 60% - Fire safety system,INV/AGN/5101,R007,R001
+EX00184,PUR,AL098,consumables,,Kaveri Data Systems,109474,2026-08-13,Earthing material,INV/KAV/54614,R056,R055
+EX00115,SIT,AL010,consumables,,Thermocool Systems,171477,2026-08-14,Test kits,INV/THE/78576,R005,R001
+EX00198,PMO,AL114,travel,,,54565,2026-08-19,Factory inspection visit,INV/GEN/88865,R058,R058
+EX00017,THM,AL034,equipment,PO-2026-009,Thermocool Systems,1458000,2026-08-21,Payment on delivery 60% - Coolant loop,INV/THE/8446,R019,R016
+EX00130,GRD,AL026,consumables,,Agni Suraksha,141745,2026-08-26,Test kits,INV/AGN/11392,R012,R008
+EX00106,SIT,AL006,manpower,,,390000,2026-08-31,Project staff salaries Aug 2026,PAY/SIT/202608,R003,R058
+EX00107,GRD,AL022,manpower,,,257000,2026-08-31,Project staff salaries Aug 2026,PAY/GRD/202608,R014,R058
+EX00108,THM,AL038,manpower,,,217000,2026-08-31,Project staff salaries Aug 2026,PAY/THM/202608,R020,R058
+EX00109,PVE,AL054,manpower,,,553000,2026-08-31,Project staff salaries Aug 2026,PAY/PVE/202608,R035,R058
+EX00110,EMS,AL070,manpower,,,517000,2026-08-31,Project staff salaries Aug 2026,PAY/EMS/202608,R036,R058
+EX00111,COM,AL082,manpower,,,386000,2026-08-31,Project staff salaries Aug 2026,PAY/COM/202608,R050,R058
+EX00112,PUR,AL094,manpower,,,84000,2026-08-31,Project staff salaries Aug 2026,PAY/PUR/202608,R055,R058
+EX00113,PMO,AL106,manpower,,,84000,2026-08-31,Project staff salaries Aug 2026,PAY/PMO/202608,R061,R058
+EX00193,PMO,AL110,consumables,,Satpuda Civil Works,35339,2026-08-31,Spares,INV/SAT/59426,R060,R058
+EX00168,EMS,AL078,travel,,,174569,2026-09-01,"MNRE review meeting, New Delhi",INV/GEN/46430,R039,R036
+EX00140,THM,AL042,consumables,,MeterMitra Technologies,143068,2026-09-03,Cables & lugs,INV/MET/45543,R018,R016
+EX00220,COM,AL122,software_licences,,Gramin Supplies,441362,2026-09-04,Billing licence,INV/GRA/93051,R052,R047
+EX00222,COM,AL086,consumables,,Kaveri Data Systems,403265,2026-09-04,Bulk purchase,INV/KAV/79561,R050,R047
+EX00133,GRD,AL026,consumables,,Suryodaya Solar,28959,2026-09-06,Spares,INV/SUR/66990,R009,R008
+EX00227,EMS,AL067,equipment,,Kaveri Data Systems,1588342,2026-09-07,Additional historian server,INV/KAV/72969,R041,R036
+EX00226,THM,AL034,equipment,PO-2026-009,Thermocool Systems,534600,2026-09-08,Final payment,INV/THE/69099,R022,R016
+EX00120,SIT,AL010,consumables,,Agni Suraksha,144021,2026-09-09,Spares,INV/AGN/40732,R002,R001
+EX00157,PVE,AL062,travel,,,82585,2026-09-09,Factory inspection visit,INV/GEN/62210,R032,R024
+EX00218,COM,AL122,software_licences,,Agni Suraksha,415925,2026-09-12,Design software licence,INV/AGN/73605,R054,R047
+EX00205,EMS,AL118,software_licences,,Suryodaya Solar,410759,2026-09-13,EMS licence,INV/SUR/29167,R038,R036
+EX00012,GRD,AL018,equipment,PO-2026-006,Gridline Electricals,2430000,2026-09-17,Payment on delivery 60% - Backup genset,INV/GRI/34860,R008,R008

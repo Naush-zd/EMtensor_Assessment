@@ -1,0 +1,5 @@
+tranche_id,pct_of_grant,amount_inr,condition_milestone_id,expected_release,actual_release,status
+T1,35,103530000,M1,2025-10-11,2025-10-19,released
+T2,35,103530000,M2,2026-03-20,2026-05-03,released
+T3,20,59160000,M4,2026-11-05,,pending
+T4,10,29580000,M6,2027-03-20,,pending

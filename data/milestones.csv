@@ -1,0 +1,7 @@
+milestone_id,milestone_name,due_date,linked_task_ids,releases_tranche_id,reported_status
+M1,"Project sanctioned, board constituted",2025-10-21,PMO-01,T1,achieved
+M2,All major procurement awarded,2026-03-10,PUR-03;PVE-02,T2,achieved
+M3,Site & grid ready for arrays,2026-07-28,SIT-07;GRD-05,,on_track
+M4,"Arrays, batteries & thermal installed",2026-10-26,PVE-05;PVE-07;THM-06,T3,on_track
+M5,72-hour islanded test passed,2026-12-30,COM-04,,on_track
+M6,Village handover & acceptance,2027-03-15,PMO-04,T4,on_track
