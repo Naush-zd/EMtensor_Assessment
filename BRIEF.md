@@ -1,6 +1,6 @@
 # Assignment K04: Surya Gram: 12-Village Solar Microgrid
 
-Time allowed: 7 days · Expected effort: 12–16 hours · Data "as of" date: **15 September 2026**
+Time allowed: 48 hours · Expected effort: 12–16 hours · Data "as of" date: **14 September 2026**
 
 ## The situation
 
