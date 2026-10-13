@@ -7,7 +7,7 @@
 ## Where AI was used
 
 ### Planning
-- Helped identify which problem statement (K04 Surya Gram) was the best fit given the 7-day constraint, based on domain simplicity.
+- Helped identify which problem statement (K04 Surya Gram) was the best fit given the 48-hour constraint, based on domain simplicity.
 - Designed the project structure, API surface, and anomaly detection rules — reviewed and approved before implementation began.
 
 ### Backend
